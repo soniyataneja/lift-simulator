@@ -1,0 +1,79 @@
+:root {
+
+  background-color: rgb(113,6,6);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+#holder{
+   background-color: black;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   flex-direction: column;
+   border: 2px solid white;
+   width: 300px;
+   height: auto;
+   padding: 50px ;
+   margin: auto;
+   margin-top: 200px;
+   border-radius: 5px;
+   margin-bottom: 100px;
+}
+#floorsInput{
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: black;
+    color:whitesmoke;
+}
+#liftsInput{
+    padding: 10px;
+    margin: 10px;
+    width:100%;
+    border-radius: 5px;
+    background-color: black;
+    border: 2px solid white;
+    color: whitesmoke;
+}
+#submit-btn{
+    padding: 5px;
+    margin: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.floor{
+    height: 200px;
+    width: 100%;
+    color: white;
+    /* display: flex; */
+}
+.navButton{
+    display: block;
+    margin: 10px;
+    height: 30px;
+    width: 60px;
+    border-radius: 5px;
+}
+
+.lift{
+    height: 120px;
+    width: 100px;
+    background-color: white;
+    border: 1px solid black;
+    margin-right: 20px;
+    
+}
+#liftHolder{
+    display: flex;
+    margin-left: 100px;
+   
+}
+#floor1{
+    overflow: hidden;
+}
+
